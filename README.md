@@ -8,4 +8,4 @@ Os membros envolvidos são os contribuidores designados ao repositório: Gabriel
 Ao decorrer do processo, serão adicionadas as soluções desenvolvidas, assim como instruções de uso e demais informações necessárias.
 
 
-![image](https://user-images.githubusercontent.com/105085099/170408536-24773193-d16a-48dc-b046-006ba4b08ea5.png)
+![image](https://user-images.githubusercontent.com/105085099/170408626-bc0798e3-b029-4d27-950b-1dc9e0f11a7c.png)
