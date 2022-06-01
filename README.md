@@ -3,7 +3,7 @@
 O presente projeto tem por finalidade a produção de soluções para acessibilidade voltadas à entidades de apoio a pessoa autista e PCD no geral.
 Neste repositório serão encontrados os arquivos produzidos pelos membros da equipe durante a realização da pesquisa e desenvolvimento do supracitado.
 
-Os membros envolvidos são os contribuidores designados ao repositório: @angelakemi, @GabrielMiranda500, @andradegeovana, @guilherme02939495 e @guilhermehsr.
+Os membros envolvidos são os contribuidores designados ao repositório: [Angela Akemi](https://github.com/angelakemi), [Gabriel Miranda](https://github.com/GabrielMiranda500), [Geovana Andrade](https://github.com/andradegeovana), [Guilherme Henrique](https://github.com/guilherme02939495) e [Guilherme Rodrigues](https://github.com/guilhermehsr).
 
 Ao decorrer do processo, serão adicionadas as soluções desenvolvidas, assim como instruções de uso e demais informações necessárias.
 
