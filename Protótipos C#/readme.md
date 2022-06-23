@@ -8,7 +8,7 @@ Se tiverem algo implementado em alguma linguagem de programação,
 tambem é válido o envio.
 
 [Alunos] 
-Angela Akemi Hiroishi - Gabriel Miranda - Geovana da Costa Andrade
+Angela Akemi Hiroishi - Gabriel Miranda - Geovana da Costa Andrade - 
 Guilherme Henrique Moura Neves - Guilherme Henrique Santos Rodrigues
 
 ***Necessario .NET FRAMEWORK 4.5 ou superior caso queira executar***
