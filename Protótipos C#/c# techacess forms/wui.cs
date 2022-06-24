@@ -63,7 +63,7 @@ namespace speachAcessF
 
             speak.SetOutputToDefaultAudioDevice();
 
-            speak.SelectVoiceByHints(VoiceGender.Female, VoiceAge.NotSet, 0, CultureInfo.GetCultureInfo("en-US"));
+            speak.SelectVoiceByHints(VoiceGender.Female, VoiceAge.NotSet, 0, CultureInfo.GetCultureInfo("pt-BR"));
             speak.Rate = rate;
             speak.Volume = vol;
 
