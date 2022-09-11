@@ -26,14 +26,6 @@ export class HomePage {
 
     this.soma = 0;
 
-      /*
-    if (this.texto == "") {
-
-    } else{
-      this.variavel_lista.push(this.texto);
-      this.texto = "";
-    }*/
-
     for (var i = 0; i < this.variavel_valor.length; i++) {
       this.soma = this.soma + parseInt(this.variavel_valor[i]);
       console.log(this.variavel_valor[i])
@@ -48,8 +40,5 @@ export class HomePage {
 
     console.log(parseInt(this.variavel_valor[indice]))
   }
-
-  //*ngFor = "let elemento_da_lista of minhaLista" no item
-  //[(ngModel)]="texto" no input
 
 }
