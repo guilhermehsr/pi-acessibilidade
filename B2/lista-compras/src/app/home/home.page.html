@@ -1,0 +1,74 @@
+<ion-content [fullscreen]="true">
+  <div id="posicionamento">
+    <ion-grid>
+      <div>
+        <ion-row>
+          <ion-text id="titulo">
+            <h1>Minha lista</h1>
+          </ion-text>
+        </ion-row>
+      </div>
+      <ion-row>
+        <ion-col size="6">
+          <ion-item>
+            <ion-input placeholder="Nome do produto" [(ngModel)]="texto"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="3">
+          <ion-item>
+            <ion-input placeholder="Valor" [(ngModel)]="valor"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="2">
+          <ion-button color="primary" size="small" (click)="adiciona()">
+            <ion-icon name="save-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+      <div>
+        <ion-row>
+          <ion-col>
+            <ion-item *ngIf = "variavel_lista.length == 0">
+              <ion-box>
+                <ion-text>
+                  Sua lista está vazia! Adicione itens nos campos acima.
+                </ion-text>
+              </ion-box>
+            </ion-item>
+          </ion-col>
+        </ion-row>
+      </div>
+      <ion-row>
+        <ion-col>
+          <ion-item *ngFor = "let elemento_da_lista of variavel_lista; index as i" >
+            <ion-grid>
+              <ion-row>
+                <ion-col size="6">
+                  {{elemento_da_lista}}
+                </ion-col>
+                <ion-col size="3">
+                  {{variavel_valor[i]}}
+                </ion-col>
+                <ion-col size="2">
+                  <ion-button color="danger" size="small" (click)="remove(i)">
+                    <ion-icon name="trash-outline"></ion-icon>
+                  </ion-button>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <div id="total">
+        <ion-row *ngIf = "soma != 0">
+          <ion-col size="6">
+            Total da compra
+          </ion-col>
+          <ion-col size="6">
+            {{soma}} 
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-grid>
+  </div>  
+</ion-content>
